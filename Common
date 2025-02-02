@@ -1,0 +1,27 @@
+- what is Next.js?
+  it is React framework for building web applications. We write react components to build UI, obviously Nextjs Have some addition features and optimizations
+  7889691195
+  -Main Features
+
+  1. Routing (In build )
+     Routing in Next.js is how your application handles different pages based on the URL. It is file-based, meaning the structure of your project’s pages/ folder determines the routes of your website.
+
+  2. Rendering
+     Rendering in Next.js refers to how your pages and components generate and display content in the browser. Next.js offers different rendering methods to improve performance and SEO.
+  3. Data Fetching
+     Next.js provides different ways to fetch data depending on your use case. The method you choose affects performance, SEO, and user experience.
+
+Which Data Fetching Method Should You Use?
+Use Case -> Best Data Fetching Method
+Static content (blogs, docs) -> SSG (getStaticProps)
+Real-time updates (stock, dashboards) -> SSR (getServerSideProps)
+Frequently updated static content (news, products)-> ISR (getStaticProps + revalidate)
+User-specific content (dashboard, profile)-> CSR (useEffect)
+Secure API requests (database, authentication)-> API Routes (pages/api/)
+
+Final Thoughts
+🔹 SSG (Fastest, best for SEO, static content).
+🔹 SSR (Fresh data on every request, slower than SSG).
+🔹 ISR (SSG + automatic updates, best for news sites).
+🔹 CSR (Client-side, good for user-specific data, but not SEO-friendly).
+🔹 API Routes (Build custom APIs inside Next.js).
