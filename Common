@@ -25,3 +25,6 @@ Final Thoughts
 🔹 ISR (SSG + automatic updates, best for news sites).
 🔹 CSR (Client-side, good for user-specific data, but not SEO-friendly).
 🔹 API Routes (Build custom APIs inside Next.js).
+
+-Server Components
+By Default Every component is Server component, that means if you console.log by default it will only in the server side not client side ( browser)
