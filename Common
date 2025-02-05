@@ -28,3 +28,7 @@ Final Thoughts
 
 -Server Components
 By Default Every component is Server component, that means if you console.log by default it will only in the server side not client side ( browser)
+
+-Server Actions
+Server Actions are asynchronous functions that are executed on the server. They can be called in Server and Client Components to handle form submissions and data mutations
+A Server Action can be defined with the React "use server" directive. You can place the directive at the top of an async function to mark the function as a Server Action, or at the top of a separate file to mark all exports of that file as Server Actions
